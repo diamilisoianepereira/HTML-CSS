@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            height: 670px;
+        }
+        article{
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="img01.png" alt="img">
+        <nav>
+            <a href="aluno.html" >Aluno</a>
+            <a href="index.html" >Página Inicial</a>
+            <a href="cadastro-professor.html">cadastro do professor</a>
+        </nav>
+        <img src="img01.png" alt="img">
+    </header>
+    <article>
+        <h2>Cadrastro de Professor</h2><br>
+        <div class="dados_pessoais">
+            <form>
+                <h3>Dados Pessoais</h3>
+                <br>
+                <label for="nome">Nome e sobrenome</label><br>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required><br><br>
+                <label for="cidade">Cidades</label>
+                <select id="cidade" name="cidade"> <br>
+                    <option value="selecione">Selecione</option>
+                    <option value="guanambi">Guanambi</option>
+                    <option value="Palmas">Palmas de Monte Alto</option>
+                    <option value="Riacho de Santana">Riacho de Santana</option>
+                    <option value="Curitiba">Curitiba</option>
+                    <option value="Rio de Janiro">Rio de janeiro</option>
+                </select>                
+                <label for="estado">Estado</label>
+                    <label for="state">Estado</label>
+                        <select name="state" id="state">
+                            <option value="AC">AC</option>
+                            <option value="AL">AL</option>
+                            <option value="AP">AP</option>
+                            <option value="AM">AM</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MT">MT</option>
+                            <option value="MS">MS</option>
+                            <option value="MG">MG</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PR">PR</option>
+                            <option value="PE">PE</option>
+                            <option value="PI">PI</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RS">RS</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="SC">SC</option>
+                            <option value="SP">SP</option>
+                            <option value="SE">SE</option>
+                            <option value="TO">TO</option>
+                        </select>
+                </select> <br><br>
+                <label for="endereco">Endereço</label><br>
+                <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço" required><br><br>
+            </form>
+        </div>
+        <div class="dados_profissionais">
+            <form>
+                <h3>Dados Profissionais</h3>
+                <br>
+                <label for="local">Local de Trabalho</label><br>
+                <input type="text" name="local" id="nome" placeholder="Digite seu local de trabalho" required><br><br>
+            </form>
+        </div>
+        <br>
+        <button type="submit">salvar</button>
+        
+    </article>
+    </div>
+</body>
+
+</html>

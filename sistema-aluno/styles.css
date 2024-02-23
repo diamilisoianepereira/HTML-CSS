@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+body{
+    background-color: yellow;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(185, 4, 116);
+    border: 2px black solid;
+}
+
+header > img{
+    height: 100px;
+    width: 130px;
+}
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 650px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+header nav > a:link{
+    text-decoration: none;
+    color: blue;
+}
+
+header nav > a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+article section{
+    flex: 3;
+    background-color: rgb(13, 248, 236);
+    border: 2px black solid;
+    width: 90%;
+    height: 450px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+article aside{
+    flex: 1;
+    background-color: rgb(235, 35, 9);
+    border: 2px black solid;
+    width: 150px;
+    height: 450px;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: rgb(81, 255, 0);
+    border: 2px black solid;
+    height: 85px;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 25px;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 17px;
+}
+th{
+    border: 2px solid black;
+    padding: 13px;
+    background-color: aliceblue;
+}
+td{
+    border: 2px solid black;
+    padding: 13px;
+    background-color: white;
+
+}
+input[type=text]{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  label[for=email]{
+    margin-left: 5px;
+  }
+  input[type=email]{
+    width: 200%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    
+  }
+  input[type=date]{
+    width: 60%;
+    margin: 5px;
+    padding: 9px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type=password]{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid black;
+  }
+
+  button{
+    background-color: rgb(72, 194, 42);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:#6a8b71;
+  }
+  select{
+    width: 20%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  label[for=estado]{
+    margin-left: 15px;
+  }
+  .dados_pessoais{
+    width: 80%;
+    padding: 12px;
+    background-color:rgb(224, 72, 72);
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+  .dados_profissionais{
+    width: 80%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #84a996;
+    border: 1px solid #84a98c;
+    border-radius: 8px;
+  }
+  .alunos{
+    width: 80%;
+    padding: 12px;
+    background-color: #8fa98c;
+    border: 1px solid #84a98c;
+    border-radius: 8px;
+  }
+  
+
+   
+   
